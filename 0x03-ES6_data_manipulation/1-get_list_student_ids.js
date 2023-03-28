@@ -1,7 +1,7 @@
-export default function getListStudentIds(lst) {
-    if (Array.isArray(lst)) {
-      return lst.map((obj) => obj.id);
+export default function getListStudentIds(list) {
+    if (Array.isArray(list)) {
+      return list.map((obj) => obj.id);
     }
-  
     return [];
   }
+  
